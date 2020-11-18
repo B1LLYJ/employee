@@ -1,5 +1,6 @@
 package com.billy.employee.controller;
 
+import com.billy.employee.POJO.Employee;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,5 +15,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/spring-rest")
 public class EmployeeController {
 
-
+    private Employee employee;
 }
